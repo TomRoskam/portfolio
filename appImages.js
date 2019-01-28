@@ -2,9 +2,9 @@ var music = document.getElementById("musicTxt");
 var cars = document.getElementById("carsTxt");
 var hobby = document.getElementById("hobbyTxt");
 
-music.addEventListener("click", addMusicImages);
-cars.addEventListener("click", addCarImages);
-hobby.addEventListener("click", addHobbyImages);
+music.addEventListener("mouseover", addMusicImages);
+cars.addEventListener("mouseover", addCarImages);
+hobby.addEventListener("mouseover", addHobbyImages);
 
 function addMusicImages() {
   console.log("css added");
