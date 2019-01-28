@@ -1,0 +1,495 @@
+@font-face {
+    src: url(fonts/OpenSansCondensed-Light.ttf);
+    font-family: OpenSansCondended-Light;
+}
+
+body {
+    font-family: OpenSansCondended-Light;
+    margin: 0;
+}
+
+.home {
+  background: url(images/building.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  
+    position: fixed;
+    z-index: 10;
+    width: 100%; 
+    top: 0;
+    font-size: 30px;
+  }
+  
+  li {
+    float: left;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  li:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .introduction {
+    background-color: rgba(0, 0, 0, 0.685);
+    width: 25vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    box-shadow: 6px 11px 34px 0px rgba(0,0,0,0.42);
+  }
+
+  .profile {
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10vh;
+      border-radius: 100%;
+  }
+
+  .introText {
+    padding: 10px;
+    margin: 10%;
+    height: 40vh;
+    text-align: center;
+  }
+  
+  .homeTitle {
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 40vh;
+    text-align: center;
+    font-size: 150px;  
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .skills {
+    background: url(images/architecture.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    height: 135vh;
+  }
+
+  .skillTitle {
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 40vh;
+    text-align: center;
+    font-size: 150px;  
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .skillItemHTML {
+    background-color: white;
+    color: black;
+    width: 20vw;
+    height: 40vh;
+    margin-left: 10vw;
+    border-radius: 5px;
+    float: left;
+    box-shadow: 6px 11px 34px 0px rgba(0,0,0,0.42);
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .skillItemHTML:hover {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+  .skillItemCSS {
+    background-color: white;
+    color: black;
+    width: 20vw;
+    height: 40vh;
+    border-radius: 5px;
+    float: left;
+    margin-left: 10vw;
+    box-shadow: 6px 11px 34px 0px rgba(0,0,0,0.42);
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .skillItemCSS:hover {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+  .skillItemJS {
+    background-color: white;
+    color: black;
+    width: 20vw;
+    height: 40vh;
+    border-radius: 5px;
+    float: left;
+    margin-left: 10vw;
+    box-shadow: 6px 11px 34px 0px rgba(0,0,0,0.42);
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .skillItemJS:hover {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+  .skillItemSQL {
+    background-color: white;
+    color: black;
+    width: 20vw;
+    height: 40vh;
+    border-radius: 5px;
+    float: left;
+    margin-left: 25vw;
+    margin-top: 5vh;
+    box-shadow: 6px 11px 34px 0px rgba(0,0,0,0.42);
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .skillItemSQL:hover {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+  .skillItemPHP {
+    background-color: white;
+    color: black;
+    width: 20vw;
+    height: 40vh;
+    border-radius: 5px;
+    float: left;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    box-shadow: 6px 11px 34px 0px rgba(0,0,0,0.42);
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .skillItemPHP:hover {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+  .skillPicHTML {
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .skillPicCSS {
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .skillPicJS {
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .skillPicSQL {
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .skillPicPHP {
+    border-radius: 5px;
+    padding: 10px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .skillImage {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .skillText {
+    padding: 10px;
+    font-size: 100%;
+  }
+
+  .interests {
+    background: url(images/architecture.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+  }
+
+  .imagineDragons {
+    background: url(images/imagineDragons.jpg);
+    background-size: 50vw 70vh; 
+    height: 60vh;
+    width: 50vw;
+    position: fixed;
+    top: -75px;
+    z-index: -1;
+    box-shadow: 6px 11px 34px 0px rgba(0,0,0,0.42);
+  }
+
+  .marshmello {
+    background: url(images/marshmello.jpg);
+    background-size: 60vw 80vh; 
+    height: 80vh;
+    width: 60vw;
+    position: fixed;
+    right: 0;
+    top: -90px;
+    float: right;
+    z-index: -2;
+    box-shadow: 6px 11px 34px 0px rgba(0,0,0,0.42);
+  }
+
+  .postMalone {
+    background: url(images/postMalone.jpg);
+    background-size: 120vw 120vh; 
+    height: 120vh;
+    width: 120vw;
+    position: fixed;
+    bottom: -340px;
+    left: -300px; 
+    z-index: -3;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH"; 
+    box-shadow: 6px 11px 34px 0px rgba(0,0,0,0.42); 
+  }
+
+  .bronco {
+    background: url(images/bronco.jpg);
+    background-size: 50vw 70vh; 
+    height: 60vh;
+    width: 50vw;
+    position: fixed;
+    top: -75px;
+    z-index: -1;
+    box-shadow: 6px 11px 34px 0px rgba(0,0,0,0.42);
+  }
+
+  .mustang {
+    background: url(images/mustang.jpg);
+    background-size: 70vw 80vh; 
+    height: 80vh;
+    width: 70vw;
+    position: fixed;
+    right: -200px;
+    top: -90px;
+    float: right;
+    z-index: -2;
+    box-shadow: 6px 11px 34px 0px rgba(0,0,0,0.42);
+  }
+
+  .shelby {
+    background: url(images/mustangRed.jpg);
+    background-size: 100vw 120vh; 
+    height: 120vh;
+    width: 100vw;
+    position: fixed;
+    bottom: -200px;
+    left: 0px; 
+    z-index: -3;
+    box-shadow: 6px 11px 34px 0px rgba(0,0,0,0.42); 
+  }
+
+  .drum {
+    background: url(images/drum.png);
+    background-size: 50vw 60vh; 
+    height: 60vh;
+    width: 50vw;
+    position: fixed;
+    top: -75px;
+    z-index: -1;
+    box-shadow: 6px 11px 34px 0px rgba(0,0,0,0.42);
+  }
+
+  .spotify {
+    background: url(images/spotify.jpg);
+    background-size: 70vw 80vh; 
+    height: 80vh;
+    width: 70vw;
+    position: fixed;
+    right: -200px;
+    top: -90px;
+    float: right;
+    z-index: -2;
+    box-shadow: 6px 11px 34px 0px rgba(0,0,0,0.42);
+  }
+
+  .phones {
+    background: url(images/phones.jpg);
+    background-size: 100vw 120vh; 
+    height: 120vh;
+    width: 100vw;
+    position: fixed;
+    bottom: -200px;
+    left: 0px; 
+    z-index: -3;
+    box-shadow: 6px 11px 34px 0px rgba(0,0,0,0.42); 
+  }
+  
+
+
+  .interestsTitle {
+    width: 40vw;
+    height: 25vh;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 40vh;
+    text-align: center;
+    font-size: 150px;  
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .interestsWrapper {
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 150%;
+    background-color: yellow;
+  }
+  
+  .music {
+    width: 10vw;
+    float: left;
+    text-align: left;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .music:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .cars {
+    width: 10vw;
+    float: left;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .cars:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .hobby {
+    width: 10vw;
+    float: left;
+    text-align: right;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .hobby:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .progress {
+    background: url(images/city.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    height: 150vh;
+  }
+
+  .progressTitle {
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 40vh;
+    text-align: center;
+    font-size: 150px;  
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .title {
+    border-collapse: collapse;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .title td, .title th {
+    text-align: left;
+    border-bottom: 1px solid white;
+  }
+
+  .doneGreen {
+    background-color: green;
+  }
+
+  .clearRed {
+    background-color: red;
+  }
+
+  
